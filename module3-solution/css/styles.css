@@ -1,21 +1,28 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Tall section */
+/* Tall sections */
 .menu-section {
   background-color: #f2f2f2;
-  height: 1000px;
+  height: 700px;
   margin-top: 20px;
   padding: 20px;
 }
 
-/* Mobile dropdown full width */
-#mobile-menu {
+/* Alternating background colors for clarity */
+#chicken { background-color: #f9f9f9; }
+#beef { background-color: #e6e6e6; }
+#sushi { background-color: #d9d9d9; }
+
+/* Mobile menu full width */
+.mobile-menu {
   background-color: #ddd;
 }
 
-#mobile-menu a {
-  text-align: center;
+.mobile-menu li a {
   font-size: 18px;
+  text-align: center;
 }
